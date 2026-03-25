@@ -274,7 +274,7 @@ class Program
                     {
                         if (action == 1)
                         {
-                            Console.WriteLine("Enter file path to save: ");
+                            Console.WriteLine("Enter file name to save: ");
                             string? filePath = Console.ReadLine();
                             string defaultFilePath = "products.json";
                             if (string.IsNullOrEmpty(filePath))
